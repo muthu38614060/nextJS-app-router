@@ -24,3 +24,27 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.navbar-items {
+  text-decoration: none;
+}
+
+.button-underline{
+  text-decoration: none !important;
+}
+
+/* Only works in development mode */
+nextjs-portal {
+  display: none !important;
+}
+
+/* Fixes the 'frozen' scrollbar that often happens when an error triggers */
+body {
+  overflow: auto !important;
+}
+
+.checkout-btn{
+  left: 1400px;
+  bottom: 75px;
+  position: fixed;
+}
